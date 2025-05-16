@@ -52,7 +52,7 @@ jobs:
             - name: Linting
               run: |
                 pip install pylint
-                pylint--errors-only src/*.py
+                pylint --errors-only src/*.py
 
             - name: Pytest
               run: |
