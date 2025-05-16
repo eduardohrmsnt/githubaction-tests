@@ -1,0 +1,4 @@
+registry: 'eduardohrmsnt'
+repository: 'githubactions-test'
+dependencies-path: 'src/requirements.txt'
+python-version: '3.10'
