@@ -2,7 +2,8 @@ name: Feature / Fix branch
 on:
   push:
     branches:
-        - 'main'
+        - 'feature**'
+        - 'fix**'
 jobs:
     python-ci:
         uses: ./.github/workflows/python-ci.yml
